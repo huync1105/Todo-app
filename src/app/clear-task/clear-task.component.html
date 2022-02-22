@@ -1,0 +1,8 @@
+<div class="clear-task" *ngIf="tasks">
+  <p>You have {{tasks.length}} pending tasks</p>
+  <button
+    (click)="clearTask()"
+  >
+    Clear all
+  </button>
+</div>

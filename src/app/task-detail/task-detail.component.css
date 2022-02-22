@@ -1,0 +1,27 @@
+.task-detail {
+  margin-bottom: 20px;
+  height: 280px;
+  overflow: hidden;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}

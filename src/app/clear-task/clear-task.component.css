@@ -1,0 +1,19 @@
+.clear-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: rgba(113, 90, 196, 1);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(113, 90, 196, 0.7);
+  cursor: pointer;
+}

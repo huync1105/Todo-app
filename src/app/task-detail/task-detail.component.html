@@ -1,0 +1,12 @@
+<div class="task-detail" *ngIf="task">
+  <h2>Task detail</h2>
+  <input type="text" [(ngModel)]="task.content">
+  <div>
+    <button (click)="goBack()">
+      <span><i class="fas fa-angle-left"></i></span> Go back
+    </button>
+    <button (click)="updateTask()">
+      Save
+    </button>
+  </div>
+</div>

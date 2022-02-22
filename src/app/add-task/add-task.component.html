@@ -1,0 +1,13 @@
+<div>
+  <input 
+    type="text"
+    placeholder="Add your new todo"
+    #taskName
+  >
+  <button 
+    (myClick)="recall()"
+    (click)="addTask(taskName.value);taskName.value=''"
+  >
+    <i class="fas fa-plus"></i>
+  </button>
+</div>
